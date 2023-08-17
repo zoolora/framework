@@ -1,0 +1,28 @@
+{
+    "name": "zoolora/framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zoolora\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amirhossein Fazli",
+            "email": "amirhossein95b@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "pest"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "pestphp/pest": "^2.15"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
