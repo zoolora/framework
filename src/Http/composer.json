@@ -1,0 +1,17 @@
+{
+    "name": "zoolora/http",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zoolora\\Http\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Amirhossein Fazli",
+            "email": "amirhossein95b@gmail.com"
+        }
+    ],
+    "require": {}
+}
