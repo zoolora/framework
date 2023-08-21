@@ -13,7 +13,6 @@ class PHPHttpServer extends App
      */
     public function run(): void
     {
-        // Request: Zoolora\Http\Request.
         $this->container->set(Request::class, new Request(
             method: $_SERVER["REQUEST_METHOD"],
             ip: $_SERVER["REMOTE_ADDR"],

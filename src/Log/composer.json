@@ -1,0 +1,17 @@
+{
+    "name": "zoolora/logger",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zoolora\\Logger\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Amirhossein Fazli",
+            "email": "amirhossein95b@gmail.com"
+        }
+    ],
+    "require": {}
+}
